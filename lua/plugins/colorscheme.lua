@@ -1,5 +1,14 @@
 return {
-
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
   { "shaunsingh/solarized.nvim" },
   {
     "catppuccin/nvim",
@@ -46,7 +55,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "solarized",
+      colorscheme = "tokyonight-storm",
     },
   },
 }
